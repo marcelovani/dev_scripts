@@ -1,0 +1,15 @@
+{
+    "name": "dennisdigital/dev_scripts",
+    "description": "VM Scripts.",
+    "keywords": ["Drupal", "Console", "Development", "Symfony"],
+    "type": "project",
+    "license": "GPL-2.0+",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "drupal/console" : "1.0.0-beta5"
+     },
+    "autoload": {
+        "psr-4": {"VM\\": "src"}
+    }
+}
